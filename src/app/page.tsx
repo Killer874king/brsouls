@@ -43,9 +43,9 @@ export default function Home() {
         </div>
         <div className="bg-neutral-900 p-6 rounded-lg text-center">
           <div className="w-16 h-16 bg-neutral-800 mx-auto mb-4 rounded-full"></div>
-          <h3 className="font-bold text-lg mb-2">Multiplayer online.</h3>
+          <h3 className="font-bold text-lg mb-2">Singleplayer.</h3>
           <p className="text-gray-400 text-sm">
-            Conecte-se e batalhe em arenas intensas contra outros jogadores.
+            Divirta-se ao máximo nessa experiência Singleplayer.
           </p>
         </div>
         <div className="bg-neutral-900 p-6 rounded-lg text-center">
