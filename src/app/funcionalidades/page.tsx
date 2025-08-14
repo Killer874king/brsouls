@@ -1,11 +1,12 @@
-export default function FuncionalidadesPage() {
-    return (
-      <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-8">
-        <h1 className="text-4xl font-bold mb-6">Funcionalidades</h1>
-        <p className="text-lg text-gray-300 max-w-2xl text-center">
-          Aqui você pode listar as principais funcionalidades do BR Souls, como mecânicas de combate, modos de jogo e recursos exclusivos.
-        </p>
-      </main>
-    );
-  }
-  
+export default function Funcionalidades() {
+  return (
+    <div className="min-h-screen px-6 py-12">
+      <h1 className="text-4xl font-extrabold mb-4">Funcionalidades</h1>
+      <ul className="space-y-3 text-gray-300">
+        <li>• Combate punitivo e recompensador</li>
+        <li>• Evolução de personagem e itens únicos</li>
+        <li>• Narrativa com impacto social</li>
+      </ul>
+    </div>
+  );
+}

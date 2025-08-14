@@ -1,11 +1,8 @@
-export default function SuportePage() {
-    return (
-      <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-8">
-        <h1 className="text-4xl font-bold mb-6">Suporte</h1>
-        <p className="text-lg text-gray-300 max-w-2xl text-center">
-          Precisa de ajuda? Acesse nossa central de suporte ou envie uma mensagem para nossa equipe.
-        </p>
-      </main>
-    );
-  }
-  
+export default function Suporte() {
+  return (
+    <div className="min-h-screen px-6 py-12">
+      <h1 className="text-4xl font-extrabold mb-4">Suporte</h1>
+      <p className="text-gray-400">Abrir ticket de suporte (simulado).</p>
+    </div>
+  );
+}
